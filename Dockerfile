@@ -30,13 +30,13 @@ COPY data/breed_metadata.csv ./data/
 # Copy the built frontend
 COPY --from=frontend-builder /app/frontend/dist ./frontend/dist
 # Copy the exported model artifact
-COPY models/vit_best.pth ./models/vit_best.pth
+COPY models/cattle_breed_classifier_full_model.pth ./models/cattle_breed_classifier_full_model.pth
 
 # Set runtime environments
 ENV PYTHONPATH=/app
-ENV MODEL_PATH=/app/models/vit_best.pth
+ENV MODEL_PATH=/app/models/cattle_breed_classifier_full_model.pth
 ENV METADATA_PATH=/app/data/breed_metadata.csv
-ENV MODEL_NAME=vit
+ENV MODEL_NAME=resnet
 ENV MODEL_VERSION=v2.0
 
 # Hugging Face Spaces run explicitly on 7860
