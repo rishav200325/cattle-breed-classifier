@@ -76,12 +76,12 @@ function AboutPage() {
                 <div className="card about-card">
                     <h3>👤 Creator</h3>
                     <p>
-                        Built by <a href="https://www.linkedin.com/in/sajit9285/" target="_blank" rel="noreferrer">
-                            Ajit Kumar Singh</a>.
+                        Built by <a href="https://github.com/rishav200325" target="_blank" rel="noreferrer">
+                            Rishav Raj</a>.
                     </p>
                     <p style={{ marginTop: '0.5rem' }}>
                         Source code on{' '}
-                        <a href="https://github.com/sajit9285/cattle-breed-classifier-webapp" target="_blank" rel="noreferrer">
+                        <a href="https://github.com/rishav200325/cattle-breed-classifier/tree/main" target="_blank" rel="noreferrer">
                             GitHub
                         </a>.
                     </p>
