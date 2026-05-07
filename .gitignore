@@ -1,0 +1,34 @@
+# Model checkpoints & artifacts
+ml/artifacts/checkpoints/*.pth
+ml/artifacts/checkpoints/*.pt
+ml/artifacts/checkpoints/*.ckpt
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+venv/
+env/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+backend.log
+tunnel.log
+
+models/*.pth

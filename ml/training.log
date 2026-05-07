@@ -1,0 +1,22 @@
+Using config:
+{'name': 'resnet', 'architecture': {'backbone': 'resnet50', 'pretrained': True, 'freeze_backbone': True, 'unfreeze_after_epochs': 10, 'unfreeze_layers': ['layer3', 'layer4', 'fc']}}
+{'batch_size': 32, 'num_epochs': 5, 'learning_rate': 0.001, 'weight_decay': 0.0001, 'optimizer': 'adamw', 'scheduler': 'cosine', 'early_stopping_patience': 7, 'gradient_clip_max_norm': 1.0, 'fine_tune_lr': 0.0001, 'label_smoothing': 0.1}
+Device: cpu
+Datasets:
+  train: 2139 images, 26 classes
+  val: 458 images, 26 classes
+  test: 459 images, 26 classes
+Starting phase-switch training:
+Phase 1 epochs: 2
+
+============================================================
+Phase 1: Frozen backbone training (2 epochs)
+============================================================
+
+
+============================================================
+Training: resnet
+Device: cpu
+Epochs: 2
+============================================================
+

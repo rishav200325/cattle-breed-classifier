@@ -1,0 +1,27 @@
+{
+  "model_name": "resnet",
+  "total_training_time_seconds": 292.71,
+  "num_epochs": 1,
+  "best_val_loss": 2.6580488192462504,
+  "best_val_accuracy": 0.24017467248908297,
+  "history": {
+    "train_loss": [
+      3.020773743138169
+    ],
+    "train_accuracy": [
+      0.1690340909090909
+    ],
+    "val_loss": [
+      2.6580488192462504
+    ],
+    "val_accuracy": [
+      0.24017467248908297
+    ],
+    "learning_rate": [
+      0.001
+    ],
+    "epoch_time": [
+      216.04
+    ]
+  }
+}
